@@ -15,16 +15,16 @@ $media-desktop:     1024px;
 //Mixins de fontes
 
 @mixin font-title {
-    font-family: 'Ruda', 'sans-serif';
+    font-family: Verdana;
     font-weight: 700;
 }
 
 @mixin font-subtitle {
-    font-family: 'Ruda', 'sans-serif';
+    font-family: Verdana;
     font-weight: 500;
 }
 
 @mixin font-paragraf {
-    font-family: 'Ruda', 'sans-serif';
+    font-family: Verdana;
     font-weight: 400;
 }
