@@ -272,12 +272,132 @@ html, body {
   display: block;
   color: white;
 }
-.webview .portfolios .container .p-projetos .projeto .photos .img:hover img {
+.webview .portfolios .container .p-projetos .projeto .photos .img img {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.webview .portfolios .container .p-projetos .projeto .photos .descricao {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+}
+.webview .portfolios .container .p-projetos .projeto .photos .descricao p {
+  display: none;
+  font-family: Verdana;
+  font-weight: 400;
+  color: white;
+}
+
+.webview .contato {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.webview .contato .container {
+  padding: 10px;
+}
+.webview .contato .container .title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.webview .contato .container .title h2 {
+  font-family: Verdana;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #29AE81;
+}
+.webview .contato .container .formulario {
+  width: 100%;
+}
+.webview .contato .container .formulario form {
+  width: 100%;
+}
+.webview .contato .container .formulario form .form-group {
+  width: 100%;
+}
+.webview .contato .container .formulario form .form-group .controls {
+  width: 100%;
+  min-height: 70px;
+}
+.webview .contato .container .formulario form .form-group .controls label {
+  font-family: Verdana;
+  font-weight: 400;
+  font-weight: bold;
+  color: #29AE81;
+}
+.webview .contato .container .formulario form .form-group .controls input {
+  font-family: Verdana;
+  font-weight: 400;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #29AE81;
+}
+.webview .contato .container .formulario form .form-group .controls input:active {
+  border: 1px solid #29AE81;
+  border-radius: 2px;
+}
+.webview .contato .container .formulario form .form-group .controls input:focus {
+  border: 1px solid #29AE81;
+  border-radius: 2px;
+}
+.webview .contato .container .formulario form .form-group .controls text-area {
+  font-family: Verdana;
+  font-weight: 400;
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+  border: 1px solid #29AE81;
+  outline: none;
+}
+.webview .contato .container .formulario form .form-group .controls text-area:active {
+  border: 1px solid #29AE81;
+  border: 2px;
+}
+.webview .contato .container .formulario form .form-group .controls text-area:focus {
+  border: 1px solid #29AE81;
+  border: 2px;
+}
+.webview .contato .container .formulario form .form-group .btn-form-send {
+  font-family: Verdana;
+  font-weight: 400;
+  margin-top: 20px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #29AE81;
+  color: white;
+  border-radius: 2px;
+}
+.webview .contato .container .formulario form .form-group .btn-form-send:hover {
+  background-color: #29AE81;
+}
+.webview .contato .container .formulario form .form-group .btn-form-send:active {
+  background-color: #29AE81;
+}
+
+.webview footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #29AE81;
+}
+.webview footer span {
+  font-family: Verdana;
+  font-weight: 400;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
